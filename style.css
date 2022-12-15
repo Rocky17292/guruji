@@ -1,0 +1,65 @@
+#navbarNav{
+  background-color: #68B984;
+  margin-top:0px;
+
+}
+.nav-link:hover{
+  background-color: #F8F988;
+
+}
+.container{
+  padding-top: 2rem;
+  text-align: center;
+}
+#cooked{
+  height: 100px;
+  padding-bottom: 2.5rem;
+  /* padding: 7% 15%; */
+}
+
+/* <!-- =============================================================
+               FEATURES
+============================================================= --> */
+
+#nature{
+  height: 100px;
+  padding-bottom: 2.5rem;
+  /* padding: 7% 15%; */
+}
+#clean{
+  height: 100px;
+  padding-bottom: 2.5rem;
+  /* padding: 7% 15%; */
+}
+#features{
+  padding: 2rem 0;
+  padding-bottom: 2.5rem;
+  /* padding: 7% 15%; */
+}
+#clean-te{
+  font-size: 1.5rem;
+  text-align: center;
+}
+#nature-te{
+  font-size: 1.5rem;
+  text-align: center;
+}
+#cooked-te{
+  font-size: 1.5rem;
+  text-align: center;
+}
+#park-te{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* <!-- =============================================================
+               REVIEWS
+============================================================= --> */
+.reviews{
+  background-color: #97DECE;
+}
+.review-img{
+  border-radius: 100%;
+  height: 100px
+}

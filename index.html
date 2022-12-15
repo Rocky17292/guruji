@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>practice</title>
+  <!-- ========================================================
+                   CSS FILES
+     ========================================================== -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- ========================================================
+                   fonts
+     ========================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Nanum+Gothic:wght@700&family=Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Satisfy&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- =============================================================
+                 HEADER SECTION
+============================================================= -->
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-success.bg-gradient ">
+      <div class="container-fluid">
+        <!-- <img class="navbar-brand" src="logo.jpg" alt="this is logo" > -->
+        <a class="navbar-brand" href="#"><img src="logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+            <li class="nav-item ">
+              <a class="nav-link text-white active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">BOOK A TABLE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">FEATURES</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">MENU</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="#">REVIEWS</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="#">ABOUT</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- =============================================================
+                 FRONT IMAGE
+============================================================= -->
+  <div class="container-fluid p-0">
+    <section class="row no-gutters align-items-center">
+      <div class="col-12 text-center d-flex">
+        <img class="img-fluid of fade-in" src="fronte.jpg " width="100%" transition: "all 1s">
+      </div>
+    </section>
+  </div>
+
+  <!-- =============================================================
+                 BOOK TABLE
+============================================================= -->
+
+  <div class="container-fluid bg-bright" style="background-color:#97DECE ">
+    <br style="padding:1rem">
+    <p class="h4 text-center " style="font-family: Satisfy ,cursive">Book a</p>
+    <p class="h2 text-center" style="font-family: Source Sans Pro">TABLE</p>
+    <div class="col-auto">
+      <label for="" class="col-form-label text-center">Date</label>
+    </div>
+    <div class="col-auto">
+      <input type="Date" class="form-control" aria-describedby="date">
+    </div>
+    <div class="col-auto">
+      <label for="" class="col-form-label">Dining Time</label>
+    </div>
+    <div class="col-auto">
+      <input type="time" class="form-control" aria-describedby="time">
+    </div>
+    <div class="col-auto">
+      <label for="partySize" class="col-form-label">Number of Person</label>
+    </div>
+    <div class="col-auto">
+      <input type="number" class="form-control" aria-describedby="PartySize">
+    </div>
+    <div class="row justify-content-center " style="padding:2rem 8rem">
+      <button type="button" class="btn btn-primary lg">Book a Table</button>
+    </div>
+
+  </div>
+
+  <!-- =============================================================
+                 FEATURES
+ ============================================================= -->
+  <div class="container">
+    <div class="h3" id="features">
+      <p>OUR FEATURES</p>
+    </div>
+    <div class="row">
+      <div class="container-fluid col-lg-6">
+        <img src="cooked.png" id="cooked" class="rounded float-start" alt="...">
+        <p id="cooked-te">Here we provide well cooked A1 quality food.</p>
+      </div>
+      <div class="container-sm col-lg-6">
+        <img src="clean.jpg" id="clean" class="rounded float-start" alt="...">
+        <p id="clean-te">Every hour proper cleaning is done by our staff.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container-sm col-lg-6">
+        <img src="nature.jpg" id="nature" class="rounded float-start" alt="...">
+        <p id="nature-te"> Restaurent is surrounder by variety of flowers which work as icing on cake.</p>
+      </div>
+      <div class="container-sm col-lg-6 ">
+        <img src="park.jpg" id="nature" class="rounded float-start" alt="...">
+        <p id="park-te"> Restaurent has huge parking area for 2 wheeler as well as 4 wheeler.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- =============================================================
+                 REVIEWS
+ ============================================================= -->
+<!--
+  <div id="carouselExampleControls" class="reviews carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="reviews-item carousel-item active">
+        <div class="review-box container ">
+          <img src="mane.jpg" alt="">
+          <p class="h4">Soham Mane</p>
+          <p>The lunch was outstanding!We had a great time,thank you for having us.We loved the dinner.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="review-box container ">
+          <img src="nayu.jpg" alt="test">
+          <p class="h4">Naynesh Mohane</p>
+          <p>Beautiful restaurent with very good staff.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="review-box container ">
+          <img src="pari.jpg" alt="">
+          <p class="h4">Paritosh Lakare</p>
+          <p>Good food, fast and good staff.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="review-box container ">
+          <img src="prathu.jpg" alt="">
+          <p class="h4">Paritosh Lakare</p>
+          <p>Good food quality and service.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+
+  <div id="carouselExampleSlidesOnly" class=" reviews carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="review-box container ">
+        <img class="review-img" src="mane.jpg" alt="">
+        <p class="h4">Soham Mane</p>
+        <p>The lunch was outstanding!We had a great time,thank you for having us.We loved the dinner.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="review-box container ">
+        <img class="review-img" src="nayu.jpg" alt="">
+        <p class="h4">Naynesh Mohane</p>
+        <p>Beautiful restaurent with very good staff.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="review-box container ">
+        <img class="review-img" src="pari.jpg" alt="">
+        <p class="h4">Paritosh Lakare</p>
+        <p>Good food, fast and good staff.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
